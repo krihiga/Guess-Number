@@ -6,14 +6,20 @@
 #guesswhat{
    display: block;
    margin: 20px;
-   padding: 50px;
+   height: 200px;
+   
    text-align: center; 
+
 }
 #guessnumber{
+    display: flex;
     border-radius: 20px;
-    padding-inline: 10px;
-    width: 200px;
+    width: 210px;
     height: 30px;
+    padding-right: 2px;
+    padding-left: 5px;
+   
+    
 }
 #btn{
     border-radius: 5px;
@@ -22,19 +28,23 @@
 }
 .number{
     
-    display: block;
-    margin: 20px;
-    border-color: rgb(79, 86, 112);
+    display: flex;
+    gap: 30px;
     position: relative;
-    left: 422px;
+    margin: auto;
+    top: 150px;
+    align-content: center;
+    border-color: rgb(79, 86, 112);
+    position: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
     padding: 20px;
-    padding-bottom: 2px;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
     width: 300px;
-    height: 200px;
+    height: 60px;
 
 }
 #result{

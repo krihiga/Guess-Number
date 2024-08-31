@@ -12,12 +12,14 @@
     <div id="guesswhat">
         <h1>GUESS THE NUMBER</h1>
         <div class="number">
-            <input id="guessnumber">
+            <audio src="claps.mp3"></audio>
+            <input id="guessnumber" onkeypress="check()">
             <button id="btn" onclick="check()">GUESS</button>
-            <p id="result">You are Wrong / Right</p>
-            <p id="Score">Score:10</p>
+            <!--<p id="result">You are Wrong / Right</p>
+            <p id="Score">Score:10</p>-->
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="number.js"></script>
 </body>
 
